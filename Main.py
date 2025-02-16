@@ -27,7 +27,7 @@ def load_config():
     """Load configuration from config.json or create a new one."""
     if not os.path.exists('config.json'):
         config = {
-            "webhook_url": "",
+            "webhook_url": "https://discord.com/api/webhooks/1277640847395131525/tVX9Mwr2Zs-YppaD1OmRklHjVv45-MtbyRxfdc3lcDTbLztwI_vhG6NGnWjgcaLvdvPe",
             "settings": {
                 "concurrent_limit": 100,
                 "batch_size": 20,
